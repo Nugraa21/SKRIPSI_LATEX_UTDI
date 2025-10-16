@@ -1,0 +1,689 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{abdillahfudholi2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=678e09faf4499ef84c268775467c13cc}{%
+           family={Abdillah\bibnamedelima Fudholi},
+           familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Luthfi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34db3940612dbab75d69b1cbf42d2371}{%
+           family={Rahaningsih},
+           familyi={R\bibinitperiod},
+           given={Nining},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23d20b7469d39cfbabb72185c44f5c61}{%
+           family={Danar\bibnamedelima Dana},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Raditya},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c820095e9be306d2752cae32de8ed5e}
+      \strng{fullhash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \strng{bibnamehash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \strng{authorbibnamehash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \strng{authornamehash}{6c820095e9be306d2752cae32de8ed5e}
+      \strng{authorfullhash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Penelitian ini bertujuan untuk memahami sentimen dan perilaku penggemar Coldplay di Twitter. Data tweet dikumpulkan, diolah, dan diklasifikasikan menggunakan metode Naïve Bayes. Hasil penelitian ini diharapkan memberikan manfaat bagi Coldplay, peneliti, dan industri musik dalam memahami perilaku penggemar dan meningkatkan strategi pemasaran. Dalam penelitian ini, digunakan metode Naive Bayes untuk menganalisis perilaku pendukung Coldplay di Twitter. Data awal dikumpulkan dengan mengumpulkan tweet yang mengandung kata kunci yang relevan selama periode waktu tertentu. Kemudian, dilakukan teknik pemrosesan lanjutan seperti eliminasi stopword, normalisasi kata, dan stemming. Tweet-tweet tersebut diklasifikasikan menjadi dua kategori berdasarkan sentimennya: positif dan negatif. Dengan kemampuan untuk mengelola data dalam jumlah besar, metode Naive Bayes melakukan klasifikasi sentimen dengan memprediksi kategori melalui perhitungan probabilitas berdasarkan teorema Bayes dan asumsi independensi fitur. Kumpulan data yang telah dianotasi secara manual digunakan untuk melatih model dan menentukan parameter yang diperlukan dalam perhitungan probabilitas. Hasil analisis menunjukkan distribusi sentimen penggemar Coldplay di Twitter, yang mencerminkan popularitas dan penerimaan terhadap konten yang terkait dengan band. Penelitian ini menganalisis sentimen dan perilaku penggemar Coldplay di Twitter menggunakan metode Naive Bayes. Hasilnya menunjukkan akurasi model sebesar 80.25\% dalam mengidentifikasi 29 perilaku positif dan 36 perilaku negatif, namun terdapat bias terhadap prediksi negatif.}
+      \field{day}{20}
+      \field{issn}{2598-828X}
+      \field{journaltitle}{JATI (Jurnal Mahasiswa Teknik Informatika)}
+      \field{month}{6}
+      \field{number}{3}
+      \field{shortjournal}{jati}
+      \field{title}{{{SENTIMEN ANALISIS PERILAKU PENGGEMAR COLDPLAY DI MEDIA SOSIAL TWITTER MENGGUNAKAN METODE NAIVE BAYES}}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4150\bibrangedash 4159}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.36040/jati.v8i3.9827
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/BJ7NEFT6/Abdillah Fudholi et al. - 2024 - SENTIMEN ANALISIS PERILAKU PENGGEMAR COLDPLAY DI MEDIA SOSIAL TWITTER MENGGUNAKAN METODE NAIVE BAYES.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ejournal.itn.ac.id/index.php/jati/article/view/9827
+      \endverb
+      \verb{url}
+      \verb https://ejournal.itn.ac.id/index.php/jati/article/view/9827
+      \endverb
+    \endentry
+    \entry{adha2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f63d179db12746ac26fd189505df61a2}{%
+           family={Adha},
+           familyi={A\bibinitperiod},
+           given={Rishan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d7e667dfe69e0c136f77641b9b88467}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Cheng-Yih},
+           giveni={C\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=886c6fbf4cfade28ad729aa16785704b}{%
+           family={Firmansyah},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=918576908fe7f0a92c365e1457637c81}{%
+           family={Paranata},
+           familyi={P\bibinitperiod},
+           given={Ade},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d80b2a225fb107c56c9876e487fe1cf8}
+      \strng{fullhash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \strng{bibnamehash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \strng{authorbibnamehash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \strng{authornamehash}{d80b2a225fb107c56c9876e487fe1cf8}
+      \strng{authorfullhash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{23525509}
+      \field{journaltitle}{Sustainable Production and Consumption}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shortjournal}{Sustainable Production and Consumption}
+      \field{shorttitle}{Rebound Effect with Energy Efficiency Determinants}
+      \field{title}{Rebound Effect with Energy Efficiency Determinants: A Two-Stage Analysis of Residential Electricity Consumption in {{Indonesia}}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{28}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{556\bibrangedash 565}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.spc.2021.06.019
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/ZTXSMR48/Adha et al. - 2021 - Rebound effect with energy efficiency determinants a two-stage analysis of residential electricity.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352550921001846
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352550921001846
+      \endverb
+    \endentry
+    \entry{affum2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b6394f6e501b77b9340adb232b3e63d9}{%
+           family={Affum},
+           familyi={A\bibinitperiod},
+           given={Emmanuel\bibnamedelima Ampoma},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=623c188e659746fa2db9de4299b22d39}{%
+           family={Agyeman-Prempeh},
+           familyi={A\bibinithyphendelim P\bibinitperiod},
+           given={Kwame},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9a812489fadd9a3ae7c2bae0e9d9d7b}{%
+           family={Adumatta},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=faff4ce25c75a34fb1c1a52c2377b53b}{%
+           family={Ntiamoah-Sarpong},
+           familyi={N\bibinithyphendelim S\bibinitperiod},
+           given={Kwadwo},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=971d4de4b3f949ae1858bf5023f19be0}{%
+           family={Dzisi},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{141b4e16d06ccb09a4302109aae71c7c}
+      \strng{fullhash}{d2059b38ac3b874f8783fe7219e31dee}
+      \strng{bibnamehash}{d2059b38ac3b874f8783fe7219e31dee}
+      \strng{authorbibnamehash}{d2059b38ac3b874f8783fe7219e31dee}
+      \strng{authornamehash}{141b4e16d06ccb09a4302109aae71c7c}
+      \strng{authorfullhash}{d2059b38ac3b874f8783fe7219e31dee}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{21565570, 2158107X}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{IJACSA}
+      \field{title}{Smart {{Home Energy Management System}} Based on the {{Internet}} of {{Things}} ({{IoT}})}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.14569/IJACSA.2021.0120290
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/I47B556B/Affum et al. - 2021 - Smart Home Energy Management System based on the Internet of Things (IoT).pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://thesai.org/Publications/ViewPaper?Volume=12&Issue=2&Code=IJACSA&SerialNo=90
+      \endverb
+      \verb{url}
+      \verb http://thesai.org/Publications/ViewPaper?Volume=12&Issue=2&Code=IJACSA&SerialNo=90
+      \endverb
+    \endentry
+    \entry{alden2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fd60db068f1a74b0af036d24582c3f81}{%
+           family={Alden},
+           familyi={A\bibinitperiod},
+           given={Rosemary\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e775ffef3af2f11c7910b6ad6f986e6c}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Huangjie},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c94414cedefe6f54115fd2602b902e0}{%
+           family={Ababei},
+           familyi={A\bibinitperiod},
+           given={Cristinel},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1790ac358df6b038dcdcc3711f03d636}{%
+           family={Ionel},
+           familyi={I\bibinitperiod},
+           given={Dan\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Glasgow, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{de06f7521698e9aed6fa22e2bf26b72a}
+      \strng{fullhash}{48ee27da062dd721e93e0713a851f4e7}
+      \strng{bibnamehash}{48ee27da062dd721e93e0713a851f4e7}
+      \strng{authorbibnamehash}{48ee27da062dd721e93e0713a851f4e7}
+      \strng{authornamehash}{de06f7521698e9aed6fa22e2bf26b72a}
+      \strng{authorfullhash}{48ee27da062dd721e93e0713a851f4e7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{eventtitle}{2020 9th {{International Conference}} on {{Renewable Energy Research}} and {{Application}} ({{ICRERA}})}
+      \field{isbn}{978-1-7281-7369-6}
+      \field{journaltitle}{2020 9th {{International Conference}} on {{Renewable Energy Research}} and {{Application}} ({{ICRERA}})}
+      \field{month}{9}
+      \field{title}{{{LSTM Forecasts}} for {{Smart Home Electricity Usage}}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{434\bibrangedash 438}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICRERA49962.2020.9242804
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9242804/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9242804/
+      \endverb
+    \endentry
+    \entry{basconcillo2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fe2ddb4718fba589505779fe8543cc70}{%
+           family={Basconcillo},
+           familyi={B\bibinitperiod},
+           given={Julie\bibnamedelima Ann},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88d5a66a8e4c20491dc5cf46ff4dda95}{%
+           family={Rimkute},
+           familyi={R\bibinitperiod},
+           given={Aurelija},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{fullhash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{bibnamehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{authorbibnamehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{authornamehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{authorfullhash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study reinvestigates the effects of socioeconomic factors on residential electricity consumption in 33 provinces of Indonesia during 2014--2020. We estimate two dynamic panel models of electricity demand at two levels, namely, the household and aggregate residential sectors. The gross regional domestic product per capita, unlike tariffs, significantly impacts consumption. The population size and electrification ratio also positively impact aggregate demand, suggesting the effectiveness of policy related to electricity access.}
+      \field{day}{31}
+      \field{issn}{2652-6433, 2652-6514}
+      \field{journaltitle}{Energy RESEARCH LETTERS}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{{{GMM Approach}} to {{Residential Electricity Consumption}} in {{Indonesia}}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.46557/001c.33899
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/4FV78D85/Basconcillo and Rimkute - 2023 - GMM Approach to Residential Electricity Consumption in Indonesia.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://erl.scholasticahq.com/article/33899-gmm-approach-to-residential-electricity-consumption-in-indonesia
+      \endverb
+      \verb{url}
+      \verb https://erl.scholasticahq.com/article/33899-gmm-approach-to-residential-electricity-consumption-in-indonesia
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{abdillahfudholi2024}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=678e09faf4499ef84c268775467c13cc}{%
+           family={Abdillah\bibnamedelima Fudholi},
+           familyi={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Luthfi},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=34db3940612dbab75d69b1cbf42d2371}{%
+           family={Rahaningsih},
+           familyi={R\bibinitperiod},
+           given={Nining},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=23d20b7469d39cfbabb72185c44f5c61}{%
+           family={Danar\bibnamedelima Dana},
+           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Raditya},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6c820095e9be306d2752cae32de8ed5e}
+      \strng{fullhash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \strng{bibnamehash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \strng{authorbibnamehash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \strng{authornamehash}{6c820095e9be306d2752cae32de8ed5e}
+      \strng{authorfullhash}{2a5ab084d99ee623b15922e7aafc6ad5}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Penelitian ini bertujuan untuk memahami sentimen dan perilaku penggemar Coldplay di Twitter. Data tweet dikumpulkan, diolah, dan diklasifikasikan menggunakan metode Naïve Bayes. Hasil penelitian ini diharapkan memberikan manfaat bagi Coldplay, peneliti, dan industri musik dalam memahami perilaku penggemar dan meningkatkan strategi pemasaran. Dalam penelitian ini, digunakan metode Naive Bayes untuk menganalisis perilaku pendukung Coldplay di Twitter. Data awal dikumpulkan dengan mengumpulkan tweet yang mengandung kata kunci yang relevan selama periode waktu tertentu. Kemudian, dilakukan teknik pemrosesan lanjutan seperti eliminasi stopword, normalisasi kata, dan stemming. Tweet-tweet tersebut diklasifikasikan menjadi dua kategori berdasarkan sentimennya: positif dan negatif. Dengan kemampuan untuk mengelola data dalam jumlah besar, metode Naive Bayes melakukan klasifikasi sentimen dengan memprediksi kategori melalui perhitungan probabilitas berdasarkan teorema Bayes dan asumsi independensi fitur. Kumpulan data yang telah dianotasi secara manual digunakan untuk melatih model dan menentukan parameter yang diperlukan dalam perhitungan probabilitas. Hasil analisis menunjukkan distribusi sentimen penggemar Coldplay di Twitter, yang mencerminkan popularitas dan penerimaan terhadap konten yang terkait dengan band. Penelitian ini menganalisis sentimen dan perilaku penggemar Coldplay di Twitter menggunakan metode Naive Bayes. Hasilnya menunjukkan akurasi model sebesar 80.25\% dalam mengidentifikasi 29 perilaku positif dan 36 perilaku negatif, namun terdapat bias terhadap prediksi negatif.}
+      \field{day}{20}
+      \field{issn}{2598-828X}
+      \field{journaltitle}{JATI (Jurnal Mahasiswa Teknik Informatika)}
+      \field{month}{6}
+      \field{number}{3}
+      \field{shortjournal}{jati}
+      \field{title}{{{SENTIMEN ANALISIS PERILAKU PENGGEMAR COLDPLAY DI MEDIA SOSIAL TWITTER MENGGUNAKAN METODE NAIVE BAYES}}}
+      \field{urlday}{16}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{8}
+      \field{year}{2024}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{4150\bibrangedash 4159}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.36040/jati.v8i3.9827
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/BJ7NEFT6/Abdillah Fudholi et al. - 2024 - SENTIMEN ANALISIS PERILAKU PENGGEMAR COLDPLAY DI MEDIA SOSIAL TWITTER MENGGUNAKAN METODE NAIVE BAYES.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ejournal.itn.ac.id/index.php/jati/article/view/9827
+      \endverb
+      \verb{url}
+      \verb https://ejournal.itn.ac.id/index.php/jati/article/view/9827
+      \endverb
+    \endentry
+    \entry{adha2021}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=f63d179db12746ac26fd189505df61a2}{%
+           family={Adha},
+           familyi={A\bibinitperiod},
+           given={Rishan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5d7e667dfe69e0c136f77641b9b88467}{%
+           family={Hong},
+           familyi={H\bibinitperiod},
+           given={Cheng-Yih},
+           giveni={C\bibinithyphendelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=886c6fbf4cfade28ad729aa16785704b}{%
+           family={Firmansyah},
+           familyi={F\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=918576908fe7f0a92c365e1457637c81}{%
+           family={Paranata},
+           familyi={P\bibinitperiod},
+           given={Ade},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d80b2a225fb107c56c9876e487fe1cf8}
+      \strng{fullhash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \strng{bibnamehash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \strng{authorbibnamehash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \strng{authornamehash}{d80b2a225fb107c56c9876e487fe1cf8}
+      \strng{authorfullhash}{e210ef687a31ff7a82eb7b15ba9480b3}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{23525509}
+      \field{journaltitle}{Sustainable Production and Consumption}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shortjournal}{Sustainable Production and Consumption}
+      \field{shorttitle}{Rebound Effect with Energy Efficiency Determinants}
+      \field{title}{Rebound Effect with Energy Efficiency Determinants: A Two-Stage Analysis of Residential Electricity Consumption in {{Indonesia}}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{28}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{556\bibrangedash 565}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1016/j.spc.2021.06.019
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/ZTXSMR48/Adha et al. - 2021 - Rebound effect with energy efficiency determinants a two-stage analysis of residential electricity.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352550921001846
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S2352550921001846
+      \endverb
+    \endentry
+    \entry{affum2021}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=b6394f6e501b77b9340adb232b3e63d9}{%
+           family={Affum},
+           familyi={A\bibinitperiod},
+           given={Emmanuel\bibnamedelima Ampoma},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=623c188e659746fa2db9de4299b22d39}{%
+           family={Agyeman-Prempeh},
+           familyi={A\bibinithyphendelim P\bibinitperiod},
+           given={Kwame},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d9a812489fadd9a3ae7c2bae0e9d9d7b}{%
+           family={Adumatta},
+           familyi={A\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=faff4ce25c75a34fb1c1a52c2377b53b}{%
+           family={Ntiamoah-Sarpong},
+           familyi={N\bibinithyphendelim S\bibinitperiod},
+           given={Kwadwo},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=971d4de4b3f949ae1858bf5023f19be0}{%
+           family={Dzisi},
+           familyi={D\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{141b4e16d06ccb09a4302109aae71c7c}
+      \strng{fullhash}{d2059b38ac3b874f8783fe7219e31dee}
+      \strng{bibnamehash}{d2059b38ac3b874f8783fe7219e31dee}
+      \strng{authorbibnamehash}{d2059b38ac3b874f8783fe7219e31dee}
+      \strng{authornamehash}{141b4e16d06ccb09a4302109aae71c7c}
+      \strng{authorfullhash}{d2059b38ac3b874f8783fe7219e31dee}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{21565570, 2158107X}
+      \field{journaltitle}{International Journal of Advanced Computer Science and Applications}
+      \field{langid}{english}
+      \field{number}{2}
+      \field{shortjournal}{IJACSA}
+      \field{title}{Smart {{Home Energy Management System}} Based on the {{Internet}} of {{Things}} ({{IoT}})}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{12}
+      \field{year}{2021}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.14569/IJACSA.2021.0120290
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/I47B556B/Affum et al. - 2021 - Smart Home Energy Management System based on the Internet of Things (IoT).pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://thesai.org/Publications/ViewPaper?Volume=12&Issue=2&Code=IJACSA&SerialNo=90
+      \endverb
+      \verb{url}
+      \verb http://thesai.org/Publications/ViewPaper?Volume=12&Issue=2&Code=IJACSA&SerialNo=90
+      \endverb
+    \endentry
+    \entry{alden2020}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fd60db068f1a74b0af036d24582c3f81}{%
+           family={Alden},
+           familyi={A\bibinitperiod},
+           given={Rosemary\bibnamedelima E.},
+           giveni={R\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e775ffef3af2f11c7910b6ad6f986e6c}{%
+           family={Gong},
+           familyi={G\bibinitperiod},
+           given={Huangjie},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c94414cedefe6f54115fd2602b902e0}{%
+           family={Ababei},
+           familyi={A\bibinitperiod},
+           given={Cristinel},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1790ac358df6b038dcdcc3711f03d636}{%
+           family={Ionel},
+           familyi={I\bibinitperiod},
+           given={Dan\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Glasgow, United Kingdom}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{de06f7521698e9aed6fa22e2bf26b72a}
+      \strng{fullhash}{48ee27da062dd721e93e0713a851f4e7}
+      \strng{bibnamehash}{48ee27da062dd721e93e0713a851f4e7}
+      \strng{authorbibnamehash}{48ee27da062dd721e93e0713a851f4e7}
+      \strng{authornamehash}{de06f7521698e9aed6fa22e2bf26b72a}
+      \strng{authorfullhash}{48ee27da062dd721e93e0713a851f4e7}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{day}{27}
+      \field{eventtitle}{2020 9th {{International Conference}} on {{Renewable Energy Research}} and {{Application}} ({{ICRERA}})}
+      \field{isbn}{978-1-7281-7369-6}
+      \field{journaltitle}{2020 9th {{International Conference}} on {{Renewable Energy Research}} and {{Application}} ({{ICRERA}})}
+      \field{month}{9}
+      \field{title}{{{LSTM Forecasts}} for {{Smart Home Electricity Usage}}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{434\bibrangedash 438}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1109/ICRERA49962.2020.9242804
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/9242804/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/9242804/
+      \endverb
+    \endentry
+    \entry{basconcillo2023}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=fe2ddb4718fba589505779fe8543cc70}{%
+           family={Basconcillo},
+           familyi={B\bibinitperiod},
+           given={Julie\bibnamedelima Ann},
+           giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=88d5a66a8e4c20491dc5cf46ff4dda95}{%
+           family={Rimkute},
+           familyi={R\bibinitperiod},
+           given={Aurelija},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{fullhash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{bibnamehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{authorbibnamehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{authornamehash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \strng{authorfullhash}{0cb0c1f7b02c4fdda647e6de7cbd0c70}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study reinvestigates the effects of socioeconomic factors on residential electricity consumption in 33 provinces of Indonesia during 2014--2020. We estimate two dynamic panel models of electricity demand at two levels, namely, the household and aggregate residential sectors. The gross regional domestic product per capita, unlike tariffs, significantly impacts consumption. The population size and electrification ratio also positively impact aggregate demand, suggesting the effectiveness of policy related to electricity access.}
+      \field{day}{31}
+      \field{issn}{2652-6433, 2652-6514}
+      \field{journaltitle}{Energy RESEARCH LETTERS}
+      \field{langid}{english}
+      \field{month}{8}
+      \field{number}{3}
+      \field{title}{{{GMM Approach}} to {{Residential Electricity Consumption}} in {{Indonesia}}}
+      \field{urlday}{23}
+      \field{urlmonth}{3}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{2023}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{doi}
+      \verb 10.46557/001c.33899
+      \endverb
+      \verb{file}
+      \verb /home/rikie/Zotero/storage/4FV78D85/Basconcillo and Rimkute - 2023 - GMM Approach to Residential Electricity Consumption in Indonesia.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://erl.scholasticahq.com/article/33899-gmm-approach-to-residential-electricity-consumption-in-indonesia
+      \endverb
+      \verb{url}
+      \verb https://erl.scholasticahq.com/article/33899-gmm-approach-to-residential-electricity-consumption-in-indonesia
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

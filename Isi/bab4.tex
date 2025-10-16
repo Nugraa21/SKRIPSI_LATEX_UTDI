@@ -1,0 +1,143 @@
+%!TEX root = ./template-skripsi.tex
+% Gunakan \cite{citekey} untuk IEEE Style
+% Gunakan \parencite{citekey} untuk APA Stle
+%-------------------------------------------------------------------------------
+%                            BAB IV
+%               		IMPLEMENTASI DAN PEMBAHASAN
+%-------------------------------------------------------------------------------
+
+\chapter{IMPLEMENTASI DAN PEMBAHASAN}
+
+	\section{Implementasi dan Uji Coba Sistem}
+	Bagian ini menguraikan tentang implementasi sistem yang dianggap penting atau inti dari penelitian yang sesuai dengan rancangan dan berdasarkan koponen/tools/bahasa pemrograman yang dipakai. Hal-hal yang perlu ditunjukkan pada bagian ini adalah:
+	\begin{enumerate}[noitemsep, label=\alph*.]
+		\item  implementasi (potongan program) yang dirancang sesuai algoritma atau flowchart di bab III
+		\item untuk pembuatan alat ditampilkan foto alat hasil rakitan
+		\item hasil uji coba dari inti penelitian yang sesuai dengan implementasi (uji coba berdasarkan data yang dimasukkan). Pembuktian tentang hasil uji coba (dapat dengan manual / dengan tool yang ada /quisioner).
+	\end{enumerate}
+
+	
+	\section{Pembahasan}		
+		Pembahasan berisi hasil pengujian yang dikaitkan dengan penelitian lain/tinjauan pustaka atau dasar teori yang ada. Petunjuk penggunaan aplikasi tidak dimunculkan dalam pembahasan tetapi diletakkan pada lampiran.
+
+		\subsection{Koding atau \textit{source code}}
+		Modul Program 1 merupakan \textit{source code }dari halaman masuk admin yang merupakan mode login untuk menjalankan sql dan memiliki fungsi sebagai pengecekan apakah data pengguna sudah ketika melakukan login. \textit{source code} dapat dilihat pada Modul Program \ref{mod1}, 
+\begin{code}
+	\singlespacing
+	\begin{minted}{html}
+		<div class="account-pages my-5 pt-sm-5">
+		<div class="container">
+		<div class="row">
+		<div class="col-lg-12">
+		<div class="text-center mb-5">
+		<!-- <a href="#" class="logo"><img src="assets/images/logo-light.png" height="24" alt="logo"></a> -->
+		<h5 class="font-size-16 text-white-50 mb-4">PENGINGAT PASIEN TB DOTS</h5>
+		</div>
+		</div>
+		</div>
+		<!-- end row -->
+		<div class="row justify-content-center">
+		<div class="col-xl-5 col-sm-8">
+		<div class="card">
+		<div class="card-body p-4">
+		<div class="p-2">
+		<h5 class="mb-5 text-center">Sign in</h5>
+		<?php session_flash("auth"); ?>
+		<form class="form-horizontal" action="auth.php" method="POST">
+		<div class="row">
+		<div class="col-md-12">
+		<div class="form-group form-group-custom mb-4">
+		<input type="text" class="form-control" id="username" name="username" required>
+		<label for="username">User Name</label></div>
+		<div class="form-group form-group-custom mb-4">
+		<input type="password" class="form-control" id="userpassword" name="password" required>
+		<label for="userpassword">Password</label>
+		</div>
+		<div class="mt-4">
+		<button class="btn btn-success btn-block waves-effect waves-light" type="submit">Log In</button>
+		</div>
+		</div></div></form></div></div></div></div></div>
+	\end{minted}
+	\begin{center}
+		\captionof{listing}{\textit{Source Code} Halaman Masuk Admin}  
+		\label{mod1} 
+	\end{center}
+\end{code}
+
+\subsection{Koding singkat}
+dapat juga menggunakan koding singkat ini, jika koding yang ingin ditampilkan hanya sedikit dan tidak perlu ditampilkan pada daftar koding.
+			
+			\begingroup
+			\begin{singlespace}
+				 \fontsize{10pt}{12pt}\selectfont
+				\begin{verbatim}
+					config mount
+					option target        /mnt
+					option device        /dev/sda1
+					option fstype        ext3
+					option options       rw,sync
+					option enabled       1
+					option enabled_fsck  0
+					option is_rootfs     1
+				\end{verbatim}  
+			\end{singlespace}
+			\endgroup
+
+			\begingroup
+			\begin{singlespace}
+			 \fontsize{10pt}{12pt}\selectfont
+			\begin{verbatim}
+				# opkg update
+				# opkg install python pyserial
+			\end{verbatim} 
+			\end{singlespace}
+			\endgroup			
+
+\subsection{Kode Python}
+Untuk kode lain dapat menyesuaikan. Kode yang telah disiapkan pada template ini adalah html, python, c, c++, dan php. Anda dapat lihat pada contoh kode python pada Modul Program~\ref{mod2}.
+
+\begin{code}
+	\singlespacing
+	\begin{minted}{python}
+	def hitung_rata_rata(nilai):
+	return sum(nilai) / len(nilai)
+	
+	def tentukan_kelulusan(rata_rata, batas_lulus=70):
+	if rata_rata >= batas_lulus:
+	return "Lulus"
+	else:
+	return "Tidak Lulus"
+	
+	# Data input
+	nama = input("Masukkan nama mahasiswa: ")
+	nilai = []
+	
+	# Input 3 nilai
+	for i in range(1, 4):
+	nilai_input = float(input(f"Masukkan nilai ke-{i}: "))
+	nilai.append(nilai_input)
+	
+	# Proses
+	rata_rata = hitung_rata_rata(nilai)
+	status = tentukan_kelulusan(rata_rata)
+	
+	# Output
+	print(f"\nMahasiswa: {nama}")
+	print(f"Nilai: {nilai}")
+	print(f"Rata-rata: {rata_rata:.2f}")
+	print(f"Status: {status}")
+	
+	\end{minted}
+	\begin{center}
+		\captionof{listing}{\textit{Source Code} kode python}  
+		\label{mod2} 
+	\end{center}
+\end{code}
+			
+			
+% Baris ini digunakan untuk membantu dalam melakukan sitasi.
+% Karena diapit dengan comment, maka baris ini akan diabaikan
+% oleh compiler LaTeX.
+\begin{comment}
+\bibliography{daftar-pustaka}
+\end{comment}

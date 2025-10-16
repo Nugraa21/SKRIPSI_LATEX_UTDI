@@ -1,0 +1,30 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+	\PYG{k}{def} \PYG{n+nf}{hitung\PYGZus{}rata\PYGZus{}rata}\PYG{p}{(}\PYG{n}{nilai}\PYG{p}{):}
+	\PYG{k}{return} \PYG{n+nb}{sum}\PYG{p}{(}\PYG{n}{nilai}\PYG{p}{)} \PYG{o}{/} \PYG{n+nb}{len}\PYG{p}{(}\PYG{n}{nilai}\PYG{p}{)}
+	
+	\PYG{k}{def} \PYG{n+nf}{tentukan\PYGZus{}kelulusan}\PYG{p}{(}\PYG{n}{rata\PYGZus{}rata}\PYG{p}{,} \PYG{n}{batas\PYGZus{}lulus}\PYG{o}{=}\PYG{l+m+mi}{70}\PYG{p}{):}
+	\PYG{k}{if} \PYG{n}{rata\PYGZus{}rata} \PYG{o}{\PYGZgt{}=} \PYG{n}{batas\PYGZus{}lulus}\PYG{p}{:}
+	\PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}Lulus\PYGZdq{}}
+	\PYG{k}{else}\PYG{p}{:}
+	\PYG{k}{return} \PYG{l+s+s2}{\PYGZdq{}Tidak Lulus\PYGZdq{}}
+	
+	\PYG{c+c1}{\PYGZsh{} Data input}
+	\PYG{n}{nama} \PYG{o}{=} \PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+s2}{\PYGZdq{}Masukkan nama mahasiswa: \PYGZdq{}}\PYG{p}{)}
+	\PYG{n}{nilai} \PYG{o}{=} \PYG{p}{[]}
+	
+	\PYG{c+c1}{\PYGZsh{} Input 3 nilai}
+	\PYG{k}{for} \PYG{n}{i} \PYG{o+ow}{in} \PYG{n+nb}{range}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{4}\PYG{p}{):}
+	\PYG{n}{nilai\PYGZus{}input} \PYG{o}{=} \PYG{n+nb}{float}\PYG{p}{(}\PYG{n+nb}{input}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Masukkan nilai ke\PYGZhy{}}\PYG{l+s+si}{\PYGZob{}}\PYG{n}{i}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{: \PYGZdq{}}\PYG{p}{))}
+	\PYG{n}{nilai}\PYG{o}{.}\PYG{n}{append}\PYG{p}{(}\PYG{n}{nilai\PYGZus{}input}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} Proses}
+	\PYG{n}{rata\PYGZus{}rata} \PYG{o}{=} \PYG{n}{hitung\PYGZus{}rata\PYGZus{}rata}\PYG{p}{(}\PYG{n}{nilai}\PYG{p}{)}
+	\PYG{n}{status} \PYG{o}{=} \PYG{n}{tentukan\PYGZus{}kelulusan}\PYG{p}{(}\PYG{n}{rata\PYGZus{}rata}\PYG{p}{)}
+	
+	\PYG{c+c1}{\PYGZsh{} Output}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}}\PYG{l+s+se}{\PYGZbs{}n}\PYG{l+s+s2}{Mahasiswa: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{nama}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Nilai: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{nilai}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Rata\PYGZhy{}rata: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{rata\PYGZus{}rata}\PYG{l+s+si}{:}\PYG{l+s+s2}{.2f}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	\PYG{n+nb}{print}\PYG{p}{(}\PYG{l+s+sa}{f}\PYG{l+s+s2}{\PYGZdq{}Status: }\PYG{l+s+si}{\PYGZob{}}\PYG{n}{status}\PYG{l+s+si}{\PYGZcb{}}\PYG{l+s+s2}{\PYGZdq{}}\PYG{p}{)}
+	
+\end{Verbatim}

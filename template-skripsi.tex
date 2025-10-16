@@ -1,0 +1,251 @@
+%-------------------------------------------------------------------------------
+%                      Template Naskah TA Skema Skripsi
+%             Format berdasarkan format yang disepakati di Fakultas
+% 						(c) @RikieKartadie 2025
+%-------------------------------------------------------------------------------
+
+%Template pembuatan naskah TA Skema skripsi.
+\documentclass[duaspasi]{utdiskripsi}
+
+%%%==== bagian ini untuk sibfile, halpdf, dan lscape
+\usepackage{subfiles} %ngurusi anak file
+\usepackage{pdfpages} %nyisipkan file pdf
+\usepackage{lscape}
+\usepackage[shortlabels]{enumitem}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage[center]{caption}
+\usepackage{longtable}
+\usepackage{booktabs}
+%anda dapat tambahkan paket seperti kebutuhan anda
+%-----------------------------------------
+%%%%buat cell color
+\usepackage{color}
+\usepackage{colortbl}
+\definecolor{abu}{cmyk}{0,0,0,0.06}
+
+%\addbibresource{daftar-pustaka}
+
+%Untuk prefiks pada daftar gambar dan tabel
+\usepackage[titles]{tocloft}
+\renewcommand\cftfigpresnum{Gambar\  }
+\renewcommand\cfttabpresnum{Tabel\   }
+
+%=================METADATA DARI PDF =================
+\newcommand{\AuthorName}{Rikie Kartadie} 	% <=== Rubah kenamamu
+\newcommand{\ThesisTitle}{Judul TA Skema Skripsi} %<=== Rubah ke judul TA mu
+\newcommand{\ThesisSubject}{Subjek TA mu} %<=== Rubah ke Subjek/fokus TA mu
+\newcommand{\Supervisor}{Dr. Budi Santosa} %<=== Nama pembimbingmu
+\newcommand{\ThesisKeywords}{Keyword1, Keyword2, Keyword3, Keyword4, Keyword5} %<== Tulis Keywordmu 
+
+%%%%---Bagian ini Jangan di rubah ----
+\usepackage{etoolbox}
+\makeatletter
+\@ifpackageloaded{hyperref}{
+	\hypersetup{
+		pdfauthor={\AuthorName},
+		pdftitle={\ThesisTitle},
+		pdfsubject={\ThesisSubject},
+		pdfkeywords={\ThesisKeywords},
+		unicode,
+		pdfborder={0 0 0},
+		bookmarksnumbered=true,
+		bookmarksopen=true,
+		bookmarksopenlevel=1,
+		colorlinks=false,
+		pdfnewwindow=true,
+		pdfpagelayout=SinglePage,
+		pdfdisplaydoctitle=true
+	}
+}{
+	\usepackage{hyperref}
+	\hypersetup{
+		pdfauthor={\AuthorName},
+		pdftitle={\ThesisTitle},
+		pdfsubject={\ThesisSubject},
+		pdfkeywords={\ThesisKeywords},
+		unicode,
+		pdfborder={0 0 0},
+		bookmarksnumbered=true,
+		bookmarksopen=true,
+		bookmarksopenlevel=1,
+		colorlinks=false,
+		pdfnewwindow=true,
+		pdfpagelayout=SinglePage,
+		pdfdisplaydoctitle=true
+	}
+}%
+%========================================================
+
+
+\newlength{\mylenf}
+\settowidth{\mylenf}{\cftfigpresnum}
+\setlength{\cftfignumwidth}{\dimexpr\mylenf+2em}
+\setlength{\cfttabnumwidth}{\dimexpr\mylenf+2em}
+\usepackage[labelfont=bf]{caption}
+\usepackage{caption}
+\usepackage{subcaption}
+\input{Isi/pemenggalan.tex} %<===tambahkan pemenggalan kata bahasa indonesia di file ini.
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk data TA skema skripsi mu
+%-----------------------------------------------------------------
+\titleind{INI JUDUL ANDA TIDAK LEBIH DARI 12 KATA DAN TEMPLATE INI MENGGUNAKAN \LaTeX}
+
+\fullname{NAMA ANDA}
+
+\idnum{123456789} %<== INI NIM ANDA
+
+\Semester{8 (Delapan)} %<====Semester pada saat Ujian Tugas Akhir 
+
+\TAakademik {Genap 2024/2025} %<==Tahun Akademik saat Ujian Tugas Akhir
+
+\approvaldate{3 Februari 2025}% <==ini tanggal pengesahan
+
+\tanggalujian{20 Februari 2025} %<=== INI TANGGAL UJIAN ANDA
+
+\degree{Sarjana Komputer}
+
+\yearsubmit{2025}
+
+\program{Sarjana}
+
+%PRODI
+\dept{Sistem Informasi}
+\kaprodi{Prof. MeiMei Upin Ipin,  PhD.} %<===Kaprodi anda
+\nidnkapro{134679852} %<==NIDN KAPRODI
+
+%PEMBIMBING
+\firstsupervisor{Prof. Deborah Kurniawati,  PhD.} %<===Nama Pemboimbing anda
+\firstnip{0501120004} %<== INI NIDN DOSPEM ANDA
+
+%PENGUJI
+\pengujipertama{Prof. Dini Fakta Sari, PhD} %<====== INI PENGUJI I ANDA
+\secondnip{9876543210} %<===== INI NIDN PENGUJI I
+\pengujikedua{Prof. Mahfud MD} % <===== INI PENGUJI 2 ANDA
+\nidnpengdua{0123456789} %<== INI NIDN PENGUJI 2
+
+
+%-----------------------------------------------------------------
+%Disini akhir masukan untuk data proposal skripsi
+%-----------------------------------------------------------------
+
+\begin{document}
+
+\cover
+\ajuanpage
+\halsetuju
+\approvalpage
+%\approvalpage
+
+%==================PERNYATAAN KEASLIAN=========
+\bebasplagiat
+\input{Isi/bebasplagiat.tex}
+%----------------------------------------------
+
+%-----------------------------------------------------------------
+%Disini awal masukan Acknowledment
+%-----------------------------------------------------------------
+\acknowledgment
+\input{Isi/persembahan.tex}
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Prakata
+%-----------------------------------------------------------------
+\preface
+\input{Isi/pengantar.tex} %<== perbaiki /rubah pada file ini 
+
+%-----------------------------------------------------------------
+%Disini akhir masukan untuk muka skripsi
+%-----------------------------------------------------------------
+\tableofcontents
+\addcontentsline{toc}{chapter}{DAFTAR ISI}
+\listoftables
+\addcontentsline{toc}{chapter}{DAFTAR TABEL}
+\listoffigures
+\addcontentsline{toc}{chapter}{DAFTAR GAMBAR}
+\listoflistings
+\addcontentsline{toc}{chapter}{DAFTAR MODUL PROGRAM}
+
+
+%-----------------------------------------------------------------
+%Daftar Singkatan [Optional]
+%-----------------------------------------------------------------
+%\singkatan
+\noindent
+
+	%-----------------------------------------------------------------
+%Disini awal masukan Intisari
+%-----------------------------------------------------------------
+%bahasa ina
+\begin{abstractind}
+	\input{Isi/abstractind.tex}
+\end{abstractind}
+
+\begin{abstracteng}
+	\input{Isi/abstracteng.tex}
+\end{abstracteng}
+%-----------------------------------------------------------------
+%Disini akhir masukan Intisari
+%-----------------------------------------------------------------
+
+%-----------------------------------------------------------------
+%Disini awal masukan untuk Bab
+%-----------------------------------------------------------------
+\include{Isi/bab1.tex}
+
+\include{Isi/bab2.tex}
+
+\include{Isi/bab3.tex}
+
+\include{Isi/bab4.tex}
+
+\include{Isi/bab5.tex}
+
+%-----------------------------------------------------------------
+%Disini akhir masukan Bab
+%-----------------------------------------------------------------
+
+
+%-----------------------------------------------------------------
+% Disini awal masukan untuk Daftar Pustaka
+% - Daftar pustaka diambil dari file .bib yang ada pada folder ini
+%   juga.
+% - Untuk memudahkan dalam memanajemen dan menggenerate file .bib
+%   gunakan reference manager seperti Mendeley, Zotero, EndNote,
+%   dll.
+%   Jika ingin menggunakan IEEE style, maka lakukan cara berikut:
+%   1. berikkometar/jgn jalankan  baris ini dengan memberikan tanda %
+%      \printbibliography[title={DAFTAR PUSTAKA}]
+%      \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+%   2. jalankan baris (dengan hilangkan tanda %) untuk baris
+%      \bibliography{IEEEabrv,daftar-pustaka}
+%      \addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+%   Cari baris \RequirePackage[style=apa, backend=biber]{biblatex}  
+%   di file utdiskripsi.cls dan non aktifkan jika ingin menggunakan IEEE, kemudian
+%   Cari baris %\bibliographystyle{IEEEtran} di file utdiskripsi.cls.
+%  =================================================================
+%  Cara kompilasi untuk APA Style:
+%  pilih tools --> command --> Biber 2x --> PDFlatex 
+%-----------------------------------------------------------------
+
+\begin{singlespacing}
+%\bibliography{IEEEabrv,daftar-pustaka}
+%\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+\printbibliography[title={DAFTAR PUSTAKA}]
+\addcontentsline{toc}{chapter}{DAFTAR PUSTAKA}
+\end{singlespacing}
+ 
+%-----------------------------------------------------------------
+%Disini akhir masukan Daftar Pustaka
+%-----------------------------------------------------------------
+
+%----------------------------------------------------------------
+% Mulai Bagian Lampiran
+%----------------------------------------------------------------
+\appendix
+\input{Isi/lampiran.tex}
+%-----------------------------------------------------------------
+
+
+\end{document}

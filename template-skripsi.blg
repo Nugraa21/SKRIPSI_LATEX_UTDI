@@ -1,0 +1,19 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'template-skripsi.blg'
+[123] biber:340> INFO - === Sat Jul 19, 2025, 17:33:54
+[145] Biber.pm:419> INFO - Reading 'template-skripsi.bcf'
+[249] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[273] Biber.pm:4419> INFO - Processing section 0
+[286] Biber.pm:4610> INFO - Looking for bibtex file 'daftar-pustaka.bib' for section 0
+[288] bibtex.pm:1713> INFO - LaTeX decoding ...
+[308] bibtex.pm:1519> INFO - Found BibTeX data source 'daftar-pustaka.bib'
+[419] UCollate.pm:68> INFO - Overriding locale 'id-ID' defaults 'variable = shifted' with 'variable = non-ignorable'
+[419] UCollate.pm:68> INFO - Overriding locale 'id-ID' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[419] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'id-ID'
+[419] Biber.pm:4245> INFO - No sort tailoring available for locale 'id-ID'
+[442] UCollate.pm:68> INFO - Overriding locale 'id-ID' defaults 'variable = shifted' with 'variable = non-ignorable'
+[442] UCollate.pm:68> INFO - Overriding locale 'id-ID' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[442] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'id-ID'
+[442] Biber.pm:4245> INFO - No sort tailoring available for locale 'id-ID'
+[456] bbl.pm:660> INFO - Writing 'template-skripsi.bbl' with encoding 'UTF-8'
+[465] bbl.pm:763> INFO - Output to template-skripsi.bbl

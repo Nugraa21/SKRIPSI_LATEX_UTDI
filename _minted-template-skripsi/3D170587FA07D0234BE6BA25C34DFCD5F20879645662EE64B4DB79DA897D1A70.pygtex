@@ -1,0 +1,34 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}account\PYGZhy{}pages my\PYGZhy{}5 pt\PYGZhy{}sm\PYGZhy{}5\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}container\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}row\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}col\PYGZhy{}lg\PYGZhy{}12\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}text\PYGZhy{}center mb\PYGZhy{}5\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} \PYGZlt{}a href=\PYGZdq{}\PYGZsh{}\PYGZdq{} class=\PYGZdq{}logo\PYGZdq{}\PYGZgt{}\PYGZlt{}img src=\PYGZdq{}assets/images/logo\PYGZhy{}light.png\PYGZdq{} height=\PYGZdq{}24\PYGZdq{} alt=\PYGZdq{}logo\PYGZdq{}\PYGZgt{}\PYGZlt{}/a\PYGZgt{} \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{h5} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}font\PYGZhy{}size\PYGZhy{}16 text\PYGZhy{}white\PYGZhy{}50 mb\PYGZhy{}4\PYGZdq{}}\PYG{p}{\PYGZgt{}}PENGINGAT PASIEN TB DOTS\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{h5}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+		\PYG{c+cm}{\PYGZlt{}!\PYGZhy{}\PYGZhy{} end row \PYGZhy{}\PYGZhy{}\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}row justify\PYGZhy{}content\PYGZhy{}center\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}col\PYGZhy{}xl\PYGZhy{}5 col\PYGZhy{}sm\PYGZhy{}8\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}card\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}card\PYGZhy{}body p\PYGZhy{}4\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}p\PYGZhy{}2\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{h5} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}mb\PYGZhy{}5 text\PYGZhy{}center\PYGZdq{}}\PYG{p}{\PYGZgt{}}Sign in\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{h5}\PYG{p}{\PYGZgt{}}
+		\PYG{c+cp}{\PYGZlt{}?php session\PYGZus{}flash(\PYGZdq{}auth\PYGZdq{}); ?\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{form} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}horizontal\PYGZdq{}} \PYG{n+na}{action}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}auth.php\PYGZdq{}} \PYG{n+na}{method}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}POST\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}row\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}col\PYGZhy{}md\PYGZhy{}12\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}group form\PYGZhy{}group\PYGZhy{}custom mb\PYGZhy{}4\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{input} \PYG{n+na}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}text\PYGZdq{}} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}username\PYGZdq{}} \PYG{n+na}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}username\PYGZdq{}} \PYG{n+na}{required}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{label} \PYG{n+na}{for}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}username\PYGZdq{}}\PYG{p}{\PYGZgt{}}User Name\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{label}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}group form\PYGZhy{}group\PYGZhy{}custom mb\PYGZhy{}4\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{input} \PYG{n+na}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}password\PYGZdq{}} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}form\PYGZhy{}control\PYGZdq{}} \PYG{n+na}{id}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}userpassword\PYGZdq{}} \PYG{n+na}{name}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}password\PYGZdq{}} \PYG{n+na}{required}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{label} \PYG{n+na}{for}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}userpassword\PYGZdq{}}\PYG{p}{\PYGZgt{}}Password\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{label}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{div} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}mt\PYGZhy{}4\PYGZdq{}}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}}\PYG{n+nt}{button} \PYG{n+na}{class}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}btn btn\PYGZhy{}success btn\PYGZhy{}block waves\PYGZhy{}effect waves\PYGZhy{}light\PYGZdq{}} \PYG{n+na}{type}\PYG{o}{=}\PYG{l+s}{\PYGZdq{}submit\PYGZdq{}}\PYG{p}{\PYGZgt{}}Log In\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{button}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+		\PYG{p}{\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{form}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}\PYGZlt{}/}\PYG{n+nt}{div}\PYG{p}{\PYGZgt{}}
+\end{Verbatim}

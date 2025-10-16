@@ -1,0 +1,48 @@
+%Kata pengantar
+%------------------------------------
+% bagian ini untuk menampilkan ulang
+% harus dibuat letter baru
+% -----------------------------------
+\makeatletter
+\let\kaprodi\@kaprodi
+\let\kajur\@kajur
+\let\pembimbingA\@firstsupervisor
+\let\pembimbingB\@secondsupervisor
+\let\jurusan\@dept
+\let\Prodi\@program
+\let\fullname\@fullname
+\let\idnum\@idnum
+\let\titleind\@titleind
+\let\titleindsurat\@titleindsurat
+\let\faculty\@faculty
+\makeatother
+\hyphenation{mau-pun pa-sien Yog-ya-kar-ta YOGYA-KAR-TA nasio-nal na-sio-nal}
+
+%------------------------------------
+
+%------------------------------------
+% Mulai kata pengantar di bawah ini
+% -----------------------------------
+Sebagai mahasiswa Jurusan \jurusan\; \faculty, Universitas Pembangunan Nasional "Veteran" Yogyakarta, yang bertandatangan dibawah ini, saya :\\\\
+\begin{tabular}{p{0.05\linewidth} p{0.2\linewidth}p{0.0025\linewidth} p{0.77\linewidth}}
+	&Nama & : & \fullname\\
+	&No. Mahasiswa &:&\idnum\\
+\end{tabular}
+\\
+
+Menyatakan bahwa karya ilmiah saya yang berjudul :\\
+\textbf{\titleindsurat} merupakan karya asli saya dan belum pernah dipublikasikan dimanapun. Apabila dikemudian hari, karya saya disinyalir bukan merupakan karya asli saya, maka saya bersedia menerima konsekuensi apapun yang diberikan Program Studi \Prodi, Fakultas Teknik Industri Universitas Pembangunan Nasional "Veteran" Yogyakarta kepada saya.\\
+\\
+Demikian surat pernyataan ini saya buat dengan penuh tanggung jawab.
+\vspace{0.5cm}
+
+
+\begin{tabular}{p{5.7cm}l}
+&dibuat di: UPN "Veteran" Yogyakarta\\
+&Pada tanggal : \today\\
+&yang menyatakan\\
+&	\\
+&	\\
+&	\\
+&	\multicolumn{1}{c}{\textbf{\fullname}}
+\end{tabular}
