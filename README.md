@@ -1,83 +1,102 @@
-Template Naskah Skripsi LaTeX
-=============================
+# Template Naskah Skripsi LaTeX
 
-Template Naskah Skripsi dengan typesetting LaTeX untuk Departemen Teknik Elektro dan Teknologi Informasi (DTETI) Universitas Gadjah Mada. Template ini merupakan hasil modifikasi dari versi pak Pekik Nurwantoro (FMIPA UGM) dan mas Yohan (T Elektro UGM 2008).
+Template Naskah Skripsi dengan typesetting LaTeX untuk **Program Studi Teknik Komputer**, **Universitas Teknologi Digital Indonesia (UTDI)**. Template ini merupakan hasil modifikasi dan penyesuaian dari template sebelumnya milik UGM agar sesuai dengan kebutuhan format penulisan skripsi di lingkungan UTDI.
 
-Semoga bermanfaat. Anda sangat dibolehkan untuk turut berkontribusi dalam project ini dengan *Fork*, *Pull Request*, *Create New Issue*, atau turut menjadi kontributor repo ini.
+Semoga template ini bermanfaat bagi mahasiswa Teknik Komputer UTDI yang ingin menulis naskah skripsinya dengan format profesional, rapi, dan otomatis menggunakan LaTeX. Anda sangat diperbolehkan untuk turut berkontribusi dalam pengembangan template ini melalui *Fork*, *Pull Request*, *Create New Issue*, atau dengan menjadi kontributor pada repository ini.
 
-Terimakasih.
+Terima kasih.
 
-Download
---------
-Silakan download versi terakhir di [https://github.com/gtrdp/template-skripsi/releases](https://github.com/gtrdp/template-skripsi/releases).
+---
 
-Quick Start
------------
-1. Siapkan LaTeX environment pada komputer anda, begitu pula LaTeX editornya. File yang diperlukan biasanya berukuran besar, jadi siapkan koneksi internet yang lancar jaya.
-	- [*Windows*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
-	- [*Linux*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=linux+setup+latex)
-	- [*Mac OS X*](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=mac+setup+latex)
-	- [Editor LaTeX di web](https://www.overleaf.com/) bisa dengan overleaf.com. Dengan ini kita tidak usah repot siapkan LaTeX environment.
+## Download
 
-2. *Clone* repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git). Atau [unduh](https://github.com/gtrdp/template-skripsi/releases) repository ini (cara ini lebih mudah).
-3. Mulai tulis naskah anda, keterangan dari masing-masing file dalam template ini ada di bawah.
-4. Pertamakali pakai LaTeX? Butuh bantuan? Pergunakanlah Google dengan baik dan bijak. Saya bantu:
-	- [Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex&oq=tutorial+menggunakan+latex&aqs=chrome..69i57j0.3219j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
-	- [English](https://www.google.com/search?q=latex+tutorial&oq=latex+tutorial&aqs=chrome..69i57j69i65l3j69i60l2.1884j0j7&sourceid=chrome&es_sm=91&ie=UTF-8)
-	- Atau kontak saya melalui email: [guntur.dharma@gmail.com](mailto:guntur.dharma@gmail.com)
+Silakan download versi terbaru di repository GitHub berikut:
+👉 [https://github.com/nugraonline/template-skripsi-utdi](https://github.com/nugraonline/template-skripsi-utdi)
 
-Contents
---------
-Berikut penjelasan dari file-file utama dalam template ini. File lain yang tidak tercantum hanya pelengkap dalam repository ini.
+---
 
-		template-skripsi/
-			├── gambar/
-			│	   ├── logougm.png
-			│	   └── wsn.png
-			├── bab1.tex
-			├── bab2.tex
-			├── bab3.tex
-			├── bab4.tex
-			├── bab5.tex
-			├── daftar-pustaka.bib
-			├── template-skripsi.pdf
-			├── template-skripsi.tex
-			└── jtetiskripsi.cls
+## Quick Start
 
-### bab1.tex - bab5.tex
-Konten utama dari skripsi, mulai dari BAB I (pendahuluan) sampe BAB V (kesimpulan). Silakan disesuaikan dengan jumlah bab skripsi anda, hapus file yang tidak perlu atau tambahkan file baru untuk bab baru.
+1. **Siapkan environment LaTeX** di komputer Anda beserta editornya. Paket LaTeX biasanya cukup besar, jadi pastikan koneksi internet stabil.
+
+   * [*Windows*](https://www.google.com/search?q=install+latex+on+windows)
+   * [*Linux*](https://www.google.com/search?q=install+latex+on+linux)
+   * [*Mac OS X*](https://www.google.com/search?q=install+latex+on+mac)
+   * [*Overleaf (Online Editor)*](https://www.overleaf.com/) — cocok untuk yang ingin langsung menulis tanpa instalasi lokal.
+
+2. *Clone* repository ini dengan Git atau [unduh file zip-nya](https://github.com/nugraonline/template-skripsi-utdi/releases).
+
+3. Mulailah menulis naskah Anda! Struktur dan panduan tiap file dijelaskan di bawah.
+
+4. Jika baru pertama kali menggunakan LaTeX, berikut referensi belajar cepat:
+
+   * [Tutorial LaTeX Bahasa Indonesia](https://www.google.com/search?q=tutorial+menggunakan+latex)
+   * [LaTeX Tutorial (English)](https://www.google.com/search?q=latex+tutorial)
+
+---
+
+## Struktur Folder
+
+```
+template-skripsi-utdi/
+├── gambar/
+│   ├── logountdi.png
+│   └── ilustrasi.png
+├── bab1.tex
+├── bab2.tex
+├── bab3.tex
+├── bab4.tex
+├── bab5.tex
+├── daftar-pustaka.bib
+├── template-skripsi-utdi.pdf
+├── template-skripsi-utdi.tex
+└── utdiskripsi.cls
+```
+
+### bab1.tex – bab5.tex
+
+Berisi isi utama skripsi dari **BAB I (Pendahuluan)** hingga **BAB V (Kesimpulan dan Saran)**. Anda bisa menambah atau menghapus bab sesuai kebutuhan.
 
 ### daftar-pustaka.bib
-File yang berisi daftar referensi-referensi yang anda gunakan dalam skripsi. File ini penting guna menyusun daftar pustaka anda. Dengan file ini menyusun daftar pustaka menjadi sangat sangat sangat mudah.
 
-File ini adalah hasil export dari aplikasi *reference management* seperti Mendeley, Zotero, EndNote, dll. Biasakan mengorganisir referensi skripsi anda menggunakan aplikasi *reference management*.
+File ini berisi daftar referensi dalam format BibTeX yang digunakan untuk menghasilkan daftar pustaka otomatis. Anda bisa mengisi file ini dari aplikasi manajemen referensi seperti **Mendeley**, **Zotero**, atau **EndNote**.
 
-### template-skripsi.tex
-File ini template-skripsi.tex adalah file utama (kepala) dari template. Berisi informasi-informasi dasar, seperti judul skripsi, nama penulis, nama pembimbing, dll.
+### template-skripsi-utdi.tex
 
-### template-skripsi.pdf
-File ini adalah skripsi anda dalam bentuk matang. Sudah rapi dan dapat dicetak untuk dijilid. File ini di-*generate* secara otomatis menggunakan LaTeX.
+File utama skripsi yang memanggil semua bagian (bab, daftar pustaka, lampiran, dll.). Di dalam file ini, Anda dapat mengatur:
 
-### jtetiskripsi.cls
-File yang berisi aturan-aturan format skripsi. Contoh, format cover, halaman pengesahan, daftar isi, daftar pustaka, dan konten skripsi.
+* Judul skripsi
+* Nama penulis dan NIM
+* Nama dosen pembimbing
+* Tahun
+* Fakultas dan program studi
 
-Jika anda ingin memodifikasi template skripsi ini, ubahlah file *jtetiskripsi.cls*.
+### template-skripsi-utdi.pdf
+
+Hasil akhir skripsi dalam bentuk PDF yang di-*compile* otomatis dari file LaTeX Anda. Siap untuk dikumpulkan atau dijilid.
+
+### utdiskripsi.cls
+
+File kelas LaTeX yang mengatur seluruh format skripsi UTDI: cover, halaman pengesahan, daftar isi, daftar tabel, daftar pustaka, serta gaya penulisan yang sesuai pedoman kampus.
 
 ### gambar/
-Masukkan gambar-gambar pada skripsi anda di folder ini. Gambar default: logougm.png (dipakai di cover) dan wsn.png (hanya dipakai di template awal, silakan dihapus jika tidak diperlukan).
-			
-Bonus
------
-Jika anda *clone* repository ini dengan [Git](https://www.google.com/search?q=windows+setup+latex&oq=windows+setup+latex&aqs=chrome..69i57.6207j0j7&sourceid=chrome&es_sm=91&ie=UTF-8#q=setup+git), anda akan temukan tiga branch:
-	
-	- master
-	- perpus-pusat
-	- skripsi-guntur
 
-Branch master merupakan template skripsi, dengan isi yang sudah disesuaikan.
+Folder tempat menyimpan gambar yang digunakan dalam skripsi. Gambar logo UTDI sudah disediakan secara default (`logountdi.png`).
 
-Namun branch perpus-pusat dan skripsi-guntur adalah skripsi saya :D. Silakan baca-baca, semoga bermanfaat. Perpus-pusat adalah skripsi dengan tambahan lembar pernyataan dan lembar pengesahan asli, guna dikumpulkan di Perpus Pusat UGM.
+---
 
-Lisensi
--------
-Template sripsi ini dilisensikan dengan menggunakan [lisensi MIT](https://raw.githubusercontent.com/gtrdp/template-skripsi/master/LICENSE).
+## Bonus
+
+Jika Anda *clone* repository ini menggunakan **Git**, tersedia beberapa branch tambahan untuk referensi:
+
+* **main** — Template skripsi standar UTDI (disarankan untuk digunakan mahasiswa aktif)
+* **contoh-skripsi-lengkap** — Contoh isi skripsi lengkap dari mahasiswa Teknik Komputer
+* **dokumen-kampus** — Berisi contoh lembar pengesahan, pernyataan orisinalitas, dan panduan format kampus
+
+---
+
+## Lisensi
+
+Template skripsi ini dilisensikan dengan **Lisensi MIT**. Anda bebas menggunakannya, menyalin, memodifikasi, dan mendistribusikannya selama tetap mencantumkan atribusi ke pembuat template ini.
+
+📄 Copyright (c) 2025 Ludang Prasetyo Nugroho
